@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://git.codelinaro.org/clo/le" name="clo-le" review="null"/>
-  <remote fetch="https://git.codelinaro.org/clo/yp" name="clo-ype" review="null"/>
+  <remote fetch="https://git.codelinaro.org/clo/ype" name="clo-ype" review="null"/>
   <remote fetch="https://git.codelinaro.org" name="clo" review="codelinaro.org"/>
   <default remote="clo" revision="refs/heads/LE.UM.1.3.r2"/>
   <project name="clo/la/device/qcom/common" path="android_compat/device/qcom/common" revision="34061c8b5fcc3725e1f742f949dfec2cc64c54e4" upstream="caf_migration/le-blast.lnx.1.1.r15-rel"/>
   <project name="external/yoctoproject.org/poky" path="poky" remote="clo-ype" revision="64297072e8084bde10b0959e0f8b7fe86481bf50" upstream="refs/heads/yocto/jethro"/>
-  <project name="clo/filesystems/fs/external/mtd-utils" path="filesystems/mtd-utils" revision="ed489fde95045fe84ed5c318fbd27d1090f2a503" upstream="core-technologies.lnx.1.0.r24-rel"/>
+  <project name="clo/filesystems/fs/external/mtd-utils" path="filesystems/mtd-utils" revision="ed489fde95045fe84ed5c318fbd27d1090f2a503" upstream="caf_migration/core-technologies.lnx.1.0.r24-rel"/>
   <project name="clo/la/kernel/lk" path="bootable/bootloader/lk" revision="6f8bc60306c45da4d6df39dd8681d32eb1f3d038" upstream="caf_migration/lk.lnx.1.0.r21-rel"/>
   <project name="clo/la/kernel/msm-3.18" revision="e33f78ad93925836539873fd3679b016eca92222" upstream="caf_migration/kernel.lnx.3.18.r25-rel"/>
   <project name="clo/le/mdm/reboot-daemon" path="mdm-ss-mgr/reboot-daemon" revision="ef84bd5b948563d06e9da2000155c505a70cf875" upstream="caf_migration/mdm-ss-mgr.lnx.1.0.r7-rel"/>
@@ -20,14 +20,14 @@
   <project name="clo/le/meta-qti-display" path="poky/meta-qti-display" revision="90e01d27ede99e40386d54a3f0525f2ece5dbcb7" upstream="caf_migration/display.lnx.3.0.r24-rel"/>
   <project name="clo/le/meta-qti-drones" path="poky/meta-qti-drones" revision="7e41139e43cfd4b9396de2fce3e709afdbe277c8" upstream="caf_migration/iot-drones.lnx.1.0.r6-rel"/>
   <project name="clo/le/meta-qti-location" path="poky/meta-qti-location" revision="621d1918de3b0bae683c5c64c9d7c6ef4288cba3" upstream="caf_migration/location.lnx.2.0.r24-rel"/>
-  <project name="clo/le/meta-qti-qmmf" path="poky/meta-qti-qmmf" revision="ef5cffd8d6eddf1b760e3af629287dba1813abc8" upstream="caf_migration//meta-qti-qmmf-recipes.lnx.1.0.r2-rel"/>
+  <project name="clo/le/meta-qti-qmmf" path="poky/meta-qti-qmmf" revision="ef5cffd8d6eddf1b760e3af629287dba1813abc8" upstream="caf_migration/meta-qti-qmmf-recipes.lnx.1.0.r2-rel"/>
   <project name="clo/le/meta-qti-security" path="poky/meta-qti-security" revision="5defa68586591c844b405878c546d0b38e04cdc7" upstream="caf_migration/sec-userspace.lnx.1.0.r24-rel"/>
   <project name="clo/le/meta-qti-ss-mgr" path="poky/meta-qti-ss-mgr" revision="ac98167a1dfeb692f28ba2e9cf8f7dff66283b0b" upstream="caf_migration/mdm-ss-mgr.lnx.1.0.r7-rel"/>
   <project name="clo/le/meta-qti-video" path="poky/meta-qti-video" revision="0bb84c639c60888ed953d4086d2e2b49f400d13c" upstream="caf_migration/video-userspace.lnx.2.1.r24-rel"/>
   <project name="clo/le/meta-qti-wlan" path="poky/meta-qti-wlan" revision="fa17ff5e1954e68dc96c8911adc3dfae28d85ea5" upstream="caf_migration/wlan-service.lnx.1.0.r7-rel"/>
   <project name="meta-selinux" path="poky/meta-selinux" remote="clo-le" revision="4c75d9cbcf1d75043c7c5ab315aa383d9b227510" upstream="caf_migration/yocto/jethro"/>
-  <project name="clo/la/platform/bootable/recovery" path="bootable/recovery" revision="1fd4d3a1004e6a496f35e671a2985d4494f41c59" upstream="le-blast.lnx.1.1.r15-rel"/>
-  <project name="clo/la/platform/build" path="android_compat/build" revision="ec7dd820187539238ca0b2acb9e28196e11c1912" upstream="caf_migration/le-blast.lnx.1.1.r15-rel"/>
+  <project name="clo/la/platform/bootable/recovery" path="bootable/recovery" revision="1fd4d3a1004e6a496f35e671a2985d4494f41c59" upstream="caf_migration/le-blast.lnx.1.1.r15-rel"/>
+  <project name="clo/la/platform/build_repo" path="android_compat/build" revision="ec7dd820187539238ca0b2acb9e28196e11c1912" upstream="caf_migration/le-blast.lnx.1.1.r15-rel"/>
   <project name="clo/la/platform/external/bluetooth/bluez" path="external/bluetooth/bluez" revision="bf36c74d337a9d98b9d00a444596847b61a906a6" upstream="caf_migration/bt.le.1.0.r7-rel"/>
   <project name="clo/la/platform/external/bsdiff" path="external/bsdiff" revision="3358bd0b08ad28aa0534c2ff28f93ef297e4a570" upstream="caf_migration/le-blast.lnx.1.1.r15-rel"/>
   <project name="clo/la/platform/external/compat-wireless" path="external/compat-wireless" revision="f1b990a82f2cb2e9c6654b50f137430466a2bab6" upstream="caf_migration/data.lnx.1.0.r15-rel"/>
@@ -40,7 +40,7 @@
   <project groups="qcom,default" name="clo/la/platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="8fcb573e311604c8ea332f945c61f0c998a01964" upstream="caf_migration/audio-userspace.lnx.2.2.r11-rel"/>
   <project name="clo/la/platform/hardware/qcom/bt" path="hardware/qcom/bt" revision="55a486e2669ec006c21317eb2841af5ba1cc1689" upstream="caf_migration/bt-fluoride.le.2.0.r3-rel"/>
   <project name="clo/la/platform/hardware/qcom/camera" path="camera/lib" revision="6c82508f9cb82254111da9a1c91146894239e336" upstream="caf_migration/camera.lnx.iot.1.0.r8-rel"/>
-  <project groups="qcom,default" name="clo/la/platform/hardware/qcom/display" path="display/display-hal" revision="5a2dd4cb8fce46759343e778c1f7ac816653a245" upstream="display.lnx.3.0.r24-rel"/>
+  <project groups="qcom,default" name="clo/la/platform/hardware/qcom/display" path="display/display-hal" revision="5a2dd4cb8fce46759343e778c1f7ac816653a245" upstream="caf_migration/display.lnx.3.0.r24-rel"/>
   <project name="clo/la/platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="1c25e02cd60501af20c244fb29487faa5c7f61b3" upstream="caf_migration/location.lnx.2.0.r24-rel"/>
   <project name="clo/la/platform/hardware/qcom/media" path="hardware/qcom/media" revision="38a505b3f267a02d5c55dadd4f9a9f5ba79edc6d" upstream="caf_migration/video-userspace.lnx.2.1.r24-rel"/>
   <project name="clo/la/platform/hardware/qcom/sensors" path="hardware/qcom/sensors/" revision="1d18c1607804ac30e7affa253a641f9cc73cf003" upstream="caf_migration/sensors-bmi.lnx.1.0.r7-rel"/>
@@ -48,7 +48,7 @@
   <project name="clo/le/platform/init_mss" path="mdm-ss-mgr/init_mss" revision="5ac6b38ba0ca5e566ccc65f05403d34ed9cb0722" upstream="caf_migration/mdm-ss-mgr.lnx.1.0.r7-rel"/>
   <project name="clo/la/platform/packages/apps/SnapdragonCamera" path="disregard/packages/apps/SnapdragonCamera" revision="d1394828f6117ac0dd3430d407ceae06d7804656" upstream="caf_migration/camera.lnx.iot.1.0.r8-rel"/>
   <project name="clo/la/platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="173b98fbb3d1a68241f17de1129c4842c9d1e5dd" upstream="caf_migration/android-framework.lnx.2.0.r24-rel"/>
-  <project name="clo/la/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="caf_migration/6ca6746f5fafd7d1b162451dce2ae40741529e9e" upstream="android-framework.lnx.2.0.r24-rel"/>
+  <project name="clo/la/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="6ca6746f5fafd7d1b162451dce2ae40741529e9e" upstream="caf_migration/android-framework.lnx.2.0.r24-rel"/>
   <project name="clo/le/platform/qcom-opensource/bt" path="qcom-opensource/bt" revision="9418714da0ece85d028353221b1b8e6fef2b6d19" upstream="caf_migration/bt-fluoride.le.2.0.r3-rel"/>
   <project name="clo/la/platform/system/bt" path="system/bt" revision="aa81794cd32db4e2cda780b58b025d0f3b541338" upstream="caf_migration/bt-fluoride.le.2.0.r3-rel"/>
   <project name="clo/la/platform/system/core" path="system/core" revision="51746a0ef460654c378da173b21c8a082d3317a2" upstream="caf_migration/le-blast.lnx.1.1.r15-rel"/>
