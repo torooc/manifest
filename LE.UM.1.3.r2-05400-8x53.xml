@@ -8,7 +8,7 @@
   <project name="external/yoctoproject.org/poky" path="poky" remote="clo-ype" revision="64297072e8084bde10b0959e0f8b7fe86481bf50" upstream="refs/heads/yocto/jethro"/>
   <project name="clo/filesystems/fs/external/mtd-utils" path="filesystems/mtd-utils" revision="ed489fde95045fe84ed5c318fbd27d1090f2a503" upstream="caf_migration/core-technologies.lnx.1.0.r24-rel"/>
   <project name="clo/la/kernel/lk" path="bootable/bootloader/lk" revision="6f8bc60306c45da4d6df39dd8681d32eb1f3d038" upstream="caf_migration/lk.lnx.1.0.r21-rel"/>
-  <project name="clo/la/kernel/msm-3.18" revision="e33f78ad93925836539873fd3679b016eca92222" upstream="caf_migration/kernel.lnx.3.18.r25-rel"/>
+  <project name="clo/la/kernel/msm-3.18" path="kernel/msm-3.18" revision="e33f78ad93925836539873fd3679b016eca92222" upstream="caf_migration/kernel.lnx.3.18.r25-rel"/>
   <project name="clo/le/mdm/reboot-daemon" path="mdm-ss-mgr/reboot-daemon" revision="ef84bd5b948563d06e9da2000155c505a70cf875" upstream="caf_migration/mdm-ss-mgr.lnx.1.0.r7-rel"/>
   <project name="clo/le/meta-qti-audio" path="poky/meta-qti-audio" revision="a8edcab38c22584b33bf5ea2fc51ae6b3b4a39b4" upstream="caf_migration/audio-userspace.lnx.2.2.r11-rel"/>
   <project name="clo/le/meta-qti-auto" path="poky/meta-qti-auto" revision="4940ae9567176c614669e0b076c1ed38783f67f8" upstream="caf_migration/vnw-can.lnx.1.0.r7-rel"/>
