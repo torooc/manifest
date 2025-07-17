@@ -746,7 +746,6 @@
   <project name="platform/vendor/qcom-opensource/bluetooth_ext" path="vendor/qcom/opensource/commonsys/bluetooth_ext" revision="9b772102433d0e3a4c34d4b184c1b811fe7cda25" upstream="refs/heads/caf_migration/bt.lnx.4.1.r4-rel"/>
   <project name="platform/vendor/qcom-opensource/core-utils" path="vendor/qcom/opensource/core-utils" revision="3124df90f9ad57149ebcd99b81f3fe6ecae68da1" upstream="refs/heads/caf_migration/qcom-devices.lnx.5.0.r4-rel">
     <linkfile dest="vendor/qcom/build/tasks/QSSI_violators.mk" src="build/QSSI_violators.mk"/>
-    <linkfile dest="build.sh" src="build.sh"/>
   </project>
   <project name="platform/vendor/qcom-opensource/cryptfs_hw" path="vendor/qcom/opensource/commonsys/cryptfs_hw" revision="4745b2b9b50d84df6a8c8d4a089a7bcf18c12d27" upstream="refs/heads/caf_migration/qcom-devices.lnx.5.0.r4-rel"/>
   <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" revision="6100b7e73d033af4ee9fcf4cff8bc9c2cfe44ca9" upstream="refs/heads/caf_migration/data.lnx.5.0.r3-rel">
@@ -783,8 +782,7 @@
   <project name="platform/vendor/qcom/thorium_64" path="device/qcom/msm8937_64" revision="460927cbf5ca70376dfd3722d7f95b84f8fb8d7a" upstream="refs/heads/caf_migration/qcom-devices.lnx.5.0.r4-rel"/>
   <project name="platform/vendor/qcom/thulium" path="device/qcom/msm8996" revision="fc4d6f71f9f6dc77fb54f12a2e1dfc4f4b0ef92e" upstream="refs/heads/caf_migration/qcom-devices.lnx.5.0.r4-rel"/>
   <project name="platform/vendor/qcom/titanium_32" path="device/qcom/msm8953_32" revision="892217dbd246d12bbdb8897a54ad19b6dc9bbc50" upstream="refs/heads/caf_migration/qcom-devices.lnx.5.0.r4-rel"/>
-  <project name="platform/vendor/qcom/titanium_64" path="device/qcom/msm8953_64" revision="d8b35ab033df338f471439f5ebe22ca78d06bc04" upstream="refs/heads/caf_migration/qcom-devices.lnx.5.0.r4-rel"/>
-  <project remote="torooc" name="platform-usom626-aos-device-lk20wg" path="device/qcom/lk20wg" revision="f70701a416715eea19521b56b68d2724767b5696" upstream="refs/heads/caf_migration/qcom-devices.lnx.5.0.r4-rel"/>
+  <project remote="torooc" name="platform-usom626-aos-device-lk20wg" path="device/qcom/msm8953_64" revision="70b71c55ed06614dc1f32217f849f859826090d9" upstream="refs/heads/caf_migration/qcom-devices.lnx.5.0.r4-rel"/>
   <project name="platform/vendor/qcom/wlan" path="device/qcom/wlan" revision="9eb315670723ea6946bd8bfedded8958da9458cb" upstream="refs/heads/caf_migration/wlan-service.lnx.4.0.r18-rel"/>
   <project groups="mirror-aosp-android10-release" name="toolchain/benchmark" revision="8a10ad96327b4bc67e80bf9e6695d48be3d35385" upstream="refs/heads/caf_migration/ks-aosp.lnx.2.0.r4-rel"/>
   <project groups="mirror-aosp-android10-release,pdk" name="toolchain/pgo-profiles" revision="c1d240c7ebeb9a94276cbcc91bd2b248cd439898" upstream="refs/heads/caf_migration/ks-aosp.lnx.2.0.r4-rel"/>
