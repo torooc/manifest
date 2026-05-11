@@ -39,8 +39,8 @@
   <project name="device/qcom/sepolicy" revision="89046a8116c53495798125df184d781914cba217" upstream="refs/heads/caf_migration/sepolicy.lnx.5.0.r2-rel"/>
   <project groups="mirror-aosp-android10-release,pdk" name="device/sample" revision="a6f43b8c0a4ce4d757d9c3a7a8dedee264298979" upstream="refs/heads/caf_migration/ks-aosp.lnx.2.0.r4-rel"/>
   <project groups="mirror-aosp-android10-release,pdk,vts" name="kernel/configs" revision="fb889a90eb610bc4cd29fdcc03c792ecc6ee8d87" upstream="refs/heads/caf_migration/ks-aosp.lnx.2.0.r4-rel"/>
-  <project name="kernel/lk" path="bootable/bootloader/lk" revision="e45176479f7e8d03bfd780bf3ba572eaa4c6ead3" upstream="refs/heads/caf_migration/ks-aosp.lnx.2.0.r4-rel"/>
-  <project name="kernel/msm-4.9" path="kernel/msm-4.9" revision="b42373c6f7bc67ed6cbfced9711e07fb8854adb1" upstream="refs/heads/caf_migration/ks-aosp.lnx.2.0.r4-rel"/>
+  <project name="kernel/lk" path="bootable/bootloader/lk" revision="e45176479f7e8d03bfd780bf3ba572eaa4c6ead3" />
+  <project name="kernel/msm-4.9" path="kernel/msm-4.9" revision="b42373c6f7bc67ed6cbfced9711e07fb8854adb1" />
   <project groups="mirror-aosp-android10-release,pdk,vts" name="kernel/tests" revision="ebe727c4b84a1c27e0bed48a9602072067a7a90d" upstream="refs/heads/caf_migration/ks-aosp.lnx.2.0.r4-rel"/>
   <project groups="mirror-aosp-android10-release,pdk" name="platform/art" path="art" revision="528489eb5dcd90be727d2853b1b1189120b1c698" upstream="refs/heads/caf_migration/ks-aosp.lnx.2.0.r4-rel"/>
   <project groups="mirror-aosp-android10-release,pdk" name="platform/bionic" path="bionic" revision="748df138662e8390ba96d15f8ee94f1e19a1f6b7" upstream="refs/heads/caf_migration/ks-aosp.lnx.2.0.r4-rel"/>
