@@ -7,8 +7,9 @@
   <include name="rubikpi-6.6.97-QLI.1.6-Ver.1.3_qim-product-sdk-2.1.1.xml" />
 
   <!-- 추가 remote (yocto=git.yoctoproject.org 는 include 된 manifest 에 이미 정의됨) -->
-  <remote fetch="git@github.com:torooc"  name="torooc" review="github.com"/>
-  <remote fetch="https://github.com/ros" name="ros"    review="github.com"/>
+  <remote fetch="git@github.com:torooc"                 name="torooc" review="github.com"/>
+  <remote fetch="https://github.com/ros"                name="ros"    review="github.com"/>
+  <remote fetch="https://github.com/aws4embeddedlinux"  name="aws4ael" review="github.com"/>
 
   <!-- 제품/추가 레이어 -->
   <project name="meta-torooc" path="layers/meta-torooc" remote="torooc"
@@ -17,4 +18,6 @@
            revision="aa528c3b312e2b6a4bcc9c78c9b6175030d29b7e" upstream="refs/heads/scarthgap"/>
   <project name="meta-mingw"  path="layers/meta-mingw"  remote="yocto"
            revision="bd9fef71ec005be3c3a6d7f8b99d8116daf70c4f" upstream="refs/heads/scarthgap"/>
+  <project name="meta-aws"    path="layers/meta-aws"    remote="aws4ael"
+           revision="6cad2b1795cc76cc8e994d472926256485943fc6" upstream="refs/heads/scarthgap"/>
 </manifest>
