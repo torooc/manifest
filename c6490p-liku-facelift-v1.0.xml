@@ -13,7 +13,7 @@
 
   <!-- 제품/추가 레이어 -->
   <project name="meta-torooc" path="layers/meta-torooc" remote="torooc"
-           revision="main" upstream="main"/>
+           revision="yocto-c6490" upstream="yocto-c6490"/>
   <project name="meta-ros"    path="layers/meta-ros"    remote="ros"
            revision="aa528c3b312e2b6a4bcc9c78c9b6175030d29b7e" upstream="refs/heads/scarthgap"/>
   <project name="meta-mingw"  path="layers/meta-mingw"  remote="yocto"
